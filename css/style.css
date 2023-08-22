@@ -1,0 +1,164 @@
+
+/* Style a todo el html */
+*{
+    font-family:'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: none; */
+    border-bottom: 2px solid grey;
+}
+
+.header img{
+    height: 6rem;
+}
+
+.navegador ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navegador li{
+    margin-right: 10px;
+}
+
+.navegador a{
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navegador {
+        margin-top: 10px;
+    }
+}
+
+.navegador{
+    /* font-size: 0.5rem; */
+    text-align: right;
+}
+
+/* Style a todo el main */
+
+.main_galería {
+    background: black;
+}
+
+.main_home{
+    background-image: url(../img/backgroundimg.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 13%;
+}
+
+.titulo_entrenar{
+    color: rgb(2, 241, 241);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descripcion_mision{
+    color: rgb(2, 241, 241);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 47px;
+}
+
+/* Style Galería de fotos */
+.galería-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -10px; 
+}
+
+.galería-container img{
+    width: calc(50% - 20px); 
+    height: auto;
+    margin: 10px; 
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .galería-container {
+      flex-direction: column;
+      align-items: center; /* Centrar las imágenes verticalmente en móvil */
+    }
+  }
+
+/* Style footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.escribinos {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.imagen_escribinos {
+    max-width: 40px;
+}
+
+.datos_contacto {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.redes a img {
+    max-width: 40px;
+}
+
+.derechos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.derechos p {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.derechos img {
+    max-width: 100px;
+}
+
+/* display: flex (a la section)
+margin-top: 25px para que no se pagan
+justfity-content: space-around
+flex_wrap: wrap 
+akign-items: center
+otras opciones a flexbox es position
+position: sticky para arrastrar para abajo y que te siga, con un top: 10px
+position: fixed ? para que el por ejemplo nav te siga
+z-index: -1 para que un elemento se coloque detras de otro
+*/
