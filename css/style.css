@@ -13,6 +13,7 @@
     align-items: center;
     /* background-color: none; */
     border-bottom: 2px solid grey;
+    background-color: whitesmoke;
 }
 
 .header img{
@@ -50,7 +51,7 @@
     text-align: right;
 }
 
-/* Style a todo el main */
+/* Style al htmlde index - main */
 
 .main_galería {
     background: black;
@@ -78,35 +79,13 @@
     margin-top: 47px;
 }
 
-/* Style Galería de fotos */
-.galería-container{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: -10px; 
-}
-
-.galería-container img{
-    width: calc(50% - 20px); 
-    height: auto;
-    margin: 10px; 
-    box-sizing: border-box;
-}
-
-@media (max-width: 767px) {
-    .galería-container {
-      flex-direction: column;
-      align-items: center; /* Centrar las imágenes verticalmente en móvil */
-    }
-  }
-
 /* Style footer */
 .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    background-color: whitesmoke;
 }
 
 .escribinos {
@@ -152,13 +131,51 @@
     max-width: 100px;
 }
 
-/* display: flex (a la section)
-margin-top: 25px para que no se pagan
-justfity-content: space-around
-flex_wrap: wrap 
-akign-items: center
-otras opciones a flexbox es position
-position: sticky para arrastrar para abajo y que te siga, con un top: 10px
-position: fixed ? para que el por ejemplo nav te siga
-z-index: -1 para que un elemento se coloque detras de otro
-*/
+/* style al html Sobre-nosotros - main */
+#sobre-nosotros {
+    text-align: center;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* style al html Servicios - main */
+.titulo_servicios{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+/* Style al html Galería de fotos - main */
+.galería-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -5px; 
+}
+
+.galería-container img{
+    width: calc(50% - 20px); 
+    height: auto;
+    margin: 10px; 
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .galería-container {
+      flex-direction: column;
+      align-items: center; /* Centrar las imágenes verticalmente en móvil */
+    }
+}
+
+.galería-container img:hover{
+margin: 3px;
+}
+
+
+
