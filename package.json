@@ -1,0 +1,22 @@
+{
+  "name": "entrega-2",
+  "version": "1.0.0",
+  "description": "npm install sass",
+  "main": "clear",
+  "scripts": {
+    "test": "cleat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "clear"
+  },
+  "keywords": [
+    "clear"
+  ],
+  "author": "clear",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sass": "^1.66.1"
+  },
+  "devDependencies": {}
+}

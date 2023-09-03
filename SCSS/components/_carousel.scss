@@ -1,0 +1,18 @@
+/* Style al html Galería de fotos - main */
+#carouselExampleIndicators {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto; 
+    background-color: transparent;
+}
+
+.carousel-inner {
+    max-height: 100%;
+}
+
+.carousel-inner img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}

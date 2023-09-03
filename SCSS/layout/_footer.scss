@@ -1,0 +1,51 @@
+/* Style footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.escribinos {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.imagen_escribinos {
+    max-width: 40px;
+}
+
+.datos_contacto {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.redes a img {
+    max-width: 40px;
+}
+
+.derechos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.derechos p {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.derechos img {
+    max-width: 100px;
+}

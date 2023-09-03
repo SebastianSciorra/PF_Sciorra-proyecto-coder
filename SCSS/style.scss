@@ -1,0 +1,12 @@
+/* base */
+@import "./base/reset";
+
+
+/* import */
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+/* components */
+@import "./components/carousel";
+@import "./components/cards";
