@@ -5,20 +5,18 @@
     background-position: center center;
     background-repeat: no-repeat;
     padding: 13%;
-}
-
-.titulo_entrenar{
-    color: rgb(2, 241, 241);
-    font-size: 4rem;
-    text-align: center;
-    font-weight: bold;
-}
-
-.descripcion_mision{
-    color: rgb(2, 241, 241);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 47px;
+    h1{
+        color: rgb(2, 241, 241);
+        font-size: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        color: rgb(2, 241, 241);
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 47px;
+    }
 }
 
 /* style al html Servicios - main */

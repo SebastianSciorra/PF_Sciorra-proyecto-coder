@@ -1,6 +1,8 @@
 /* Reset */
+@import "../utilities/variables";
+
 *{
-    font-family:'Fjalla One', sans-serif;
+    font-family: $fuente_texto;
     margin: 0;
     padding: 0;
 }

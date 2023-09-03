@@ -1,7 +1,8 @@
 /* Style header */
+@import "../utilities/variables";
 header{
     border-bottom: 2px solid grey;
-    background-color: whitesmoke;
+    background-color: $color-de-fondo;
     img{
         height: 6rem;
     }

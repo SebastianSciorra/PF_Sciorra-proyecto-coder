@@ -1,12 +1,15 @@
 /* base */
-@import "./base/reset";
+@import "base/reset";
+@import "base/fonts";
 
+/* variables */
+@import "utilities/variables";
 
-/* import */
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/footer";
+/* layout */
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
 
 /* components */
-@import "./components/carousel";
-@import "./components/cards";
+@import "components/carousel";
+@import "components/cards";

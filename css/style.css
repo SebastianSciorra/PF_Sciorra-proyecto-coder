@@ -1,13 +1,18 @@
 @charset "UTF-8";
 /* base */
 /* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 * {
   font-family: "Fjalla One", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* import */
+/* variables */
+/* layout */
 /* Style header */
 header {
   border-bottom: 2px solid grey;
@@ -25,15 +30,13 @@ header img {
   background-repeat: no-repeat;
   padding: 13%;
 }
-
-.titulo_entrenar {
+.main_home h1 {
   color: rgb(2, 241, 241);
   font-size: 4rem;
   text-align: center;
   font-weight: bold;
 }
-
-.descripcion_mision {
+.main_home p {
   color: rgb(2, 241, 241);
   font-size: 2rem;
   text-align: center;
@@ -73,12 +76,10 @@ header img {
   grid-template-columns: auto auto;
   align-items: center;
 }
-
-.imagen_escribinos {
+.escribinos img {
   max-width: 40px;
 }
-
-.datos_contacto {
+.escribinos p {
   margin: 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -91,8 +92,7 @@ header img {
   justify-items: center;
   align-items: center;
 }
-
-.redes a img {
+.redes img {
   max-width: 40px;
 }
 
@@ -101,12 +101,10 @@ header img {
   align-items: center;
   justify-content: flex-end;
 }
-
 .derechos p {
   margin: 0;
   padding-right: 10px;
 }
-
 .derechos img {
   max-width: 100px;
 }
