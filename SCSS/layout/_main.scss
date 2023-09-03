@@ -1,0 +1,41 @@
+/* Style al htmlde index - main */
+.main_home{
+    background-image: url(../img/backgroundimg.JPG);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 13%;
+}
+
+.titulo_entrenar{
+    color: rgb(2, 241, 241);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descripcion_mision{
+    color: rgb(2, 241, 241);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 47px;
+}
+
+/* style al html Servicios - main */
+.titulo_servicios{
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+/* style al html Sobre-nosotros - main */
+#sobre-nosotros {
+    text-align: center;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
