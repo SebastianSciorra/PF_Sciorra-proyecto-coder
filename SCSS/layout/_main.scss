@@ -1,4 +1,10 @@
 /* Style al htmlde index - main */
+
+@mixin texto ($font-size, $text-align){
+    font-size: $font-size;
+    text-align: $text-align;
+}
+
 .main_home{
     background-image: url(../img/backgroundimg.JPG);
     background-size: cover;
@@ -7,14 +13,12 @@
     padding: 13%;
     h1{
         color: rgb(2, 241, 241);
-        font-size: 4rem;
-        text-align: center;
+        @include texto(4rem, center);
         font-weight: bold;
     }
     p{
         color: rgb(2, 241, 241);
-        font-size: 2rem;
-        text-align: center;
+        @include texto(2rem, center);
         margin-top: 47px;
     }
 }
