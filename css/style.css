@@ -20,6 +20,10 @@ header {
 }
 header img {
   height: 6rem;
+  transition: 2s;
+}
+header img:hover {
+  transform: rotate(360deg);
 }
 header a:hover {
   padding: 10px;

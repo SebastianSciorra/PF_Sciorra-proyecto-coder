@@ -5,6 +5,10 @@ header{
     background-color: $color-de-fondo;
     img{
         height: 6rem;
+        transition: 2s;
+        &:hover{
+            transform: rotate(360deg);
+        }
     }
     a:hover{
         padding: 10px;
